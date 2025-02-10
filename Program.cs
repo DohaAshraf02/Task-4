@@ -41,9 +41,9 @@
 
             // Trust
             var trustAccounts = new List<Account>();
-            //trustAccounts.Add(new TrustAccount());
-            //trustAccounts.Add(new TrustAccount("Superman2"));
-            //trustAccounts.Add(new TrustAccount("Batman2", 2000));
+            trustAccounts.Add(new TrustAccount());
+            trustAccounts.Add(new TrustAccount("Superman2"));
+            trustAccounts.Add(new TrustAccount("Batman2", 2000));
             trustAccounts.Add(new TrustAccount("Wonderwoman2", 5000, 5.0));
 
             AccountUtil.Display(trustAccounts);
